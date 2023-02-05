@@ -2,7 +2,7 @@ import * as React from 'react'
 import Helmet from 'react-helmet'
 import config from '../utils/config'
 
-import { Layout } from '../components/layout'
+import { Layout } from '../components/Layout'
 import { Hero } from '../components/Hero'
 import { Heading } from '../components/Heading'
 
