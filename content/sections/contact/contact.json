@@ -1,0 +1,13 @@
+{
+  "name": "Dany Satyanegara",
+  "email": "danysatyanegara@gmail.com",
+  "description": "If you have any question or just say Hi.",
+  "image": {
+    "src": "../../images/mail.png",
+    "alt": "mail"
+  },
+  "socialProfiles": {
+    "from": ["LinkedIn", "Twitter", "Github", "Mail"],
+    "showIcons": true
+  }
+}

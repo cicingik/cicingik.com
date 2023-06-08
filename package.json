@@ -1,47 +1,43 @@
 {
   "name": "cicingik",
   "version": "1.0.0",
-  "private": true,
-  "description": "cicingik",
-  "author": "cicingik",
-  "license": "MIT",
-  "keywords": [
-    "gatsby"
-  ],
-  "engines": {
-    "node": "18.0.0"
-  },
+  "description": "Personal website like digital garden.",
   "scripts": {
+    "clean": "gatsby clean",
     "develop": "gatsby develop",
-    "start": "gatsby develop",
     "build": "gatsby build",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "serve": "gatsby serve"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   },
   "dependencies": {
-    "gatsby": "^5.5.0",
+    "gatsby": "^5.0.1",
+    "gatsby-theme-portfolio-minimal": "latest",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-helmet": "^6.1.0",
-    "gatsby-image": "^3.11.0",
-    "gatsby-plugin-layout": "^4.5.0",
-    "gatsby-transformer-remark": "^6.5.0",
-    "gatsby-plugin-react-helmet": "^6.5.0",
-    "gatsby-plugin-netlify": "^5.1.0",
-    "gatsby-plugin-feed": "^5.5.0",
-    "gatsby-transformer-sharp": "^5.5.0",
-    "gatsby-source-filesystem": "^5.5.0",
-    "gatsby-remark-prismjs": "^7.5.0",
-    "gatsby-remark-autolink-headers": "^6.5.0",
-    "gatsby-remark-images": "^7.5.0",
-    "prismjs": "^1.29.0",
-    "query-string": "^8.1.0",
-    "react-use-flexsearch": "^0.1.1"
+    "react-dom": "^18.2.0"
   },
-  "devDependencies": {
-    "eslint": "^7.32.0",
-    "eslint-config-react-app": "^6.0.0",
-    "gatsby-plugin-manifest": "^5.5.0",
-    "postcss": "^8.3.6"
-  }
+  "author": "Dany Satyanegara <danysatyanegara@gmail.com>",
+  "license": "0BSD",
+  "starter-name": "cicingik",
+  "homepage": "https://github.com/cicingik/cicingik.com#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cicingik/cicingik.com.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cicingik/cicingik.com/issues"
+  },
+  "keywords": [
+    "react",
+    "gatsby",
+    "gatsby-theme",
+    "PWA",
+    "portfolio",
+    "showcase",
+    "minimal",
+    "animations",
+    "dark-mode",
+    "gdpr-compliant"
+  ]
 }

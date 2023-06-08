@@ -1,0 +1,42 @@
+{
+  "siteMetadata": {
+    "language": "en",
+    "siteUrl": "https://cicingik.com",
+    "title": "cicingik",
+    "titleTemplate": "%s · cicingik",
+    "description": "Personal website like digital garden.",
+    "author": "Dany Satyanegara",
+    "avatar": "../content/images/gatsby.png",
+    "bio": "Software developer",
+    "social": {
+      "twitter": "https://twitter.com/cicingik",
+      "github": "https://github.com/cicingik",
+      "linkedin": "https://www.linkedin.com/in/danysatyanegara",
+      "mail": "mailto:danysatyanegara@gmail.com"
+    }
+  },
+  "siteConfiguration": {
+    "logo": { "text": "cicingik" },
+    "navigation": {
+      "header": [
+        { "label": "About", "url": "/#about" },
+        { "label": "Blog", "url": "/blog" },
+        { "label": "Contact", "url": "/#contact" }
+      ],
+      "ctaButton": {
+        "openNewTab": true,
+        "label": "Resume",
+        "url": "/resume.pdf"
+      },
+      "footer": [
+        { "label": "Privacy", "url": "/privacy" },
+        { "label": "Imprint", "url": "/imprint" }
+      ]
+    },
+    "featureToggles": {
+      "useDarkModeAsDefault": false,
+      "useDarkModeBasedOnUsersPreference": true,
+      "useCookieBar": false
+    }
+  }
+}

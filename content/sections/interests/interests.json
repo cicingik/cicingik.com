@@ -1,0 +1,23 @@
+{
+  "interests": [
+    {
+      "label": "Reading",
+      "image": {
+        "src": "../../images/notebook.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "Hiking",
+      "image": {
+        "src": "../../images/mountain.png",
+        "alt": ""
+      }
+    } 
+  ],
+  "button": {
+    "visible": true,
+    "label": "+ Load More",
+    "initiallyShownInterests": 5
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "intro": "Hi",
+  "heroPhoto": {
+    "src": "../../images/me.jpeg",
+    "alt": "My Photo"
+  },
+  "image": {
+    "src": "../../images/waving-hand.png",
+    "alt": "Waving Hand Emoji"
+  },
+  "title": "I'm cicingik, mathematician",
+  "subtitle": {
+    "prefix": "that work as ",
+    "highlight": "Software Developer",
+    "suffix": "."
+  },
+  "description": "",
+  "socialProfiles": {
+    "from": [],
+    "showIcons": false
+  }
+}
