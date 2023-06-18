@@ -227,7 +227,7 @@ ENTRYPOINT ["/usr/bin/tf_serving_entrypoint.sh"]
 
 Build and run the image:
 ```shell
-➜  ml-gateway docker build --compress --rm --no-cache -t bisnis -f Dockerfile .     
+➜  docker build --compress --rm --no-cache -t bisnis -f Dockerfile .
 Sending build context to Docker daemon  777.7MB
 Step 1/9 : FROM tensorflow/serving:latest
  ---> e874bf5e4700
@@ -284,7 +284,7 @@ To enable them in other operations, rebuild TensorFlow with the appropriate comp
 There is not a way to gracefully shutdown server in TF-Serving.
 What you can do is add tini to your Docker image. Tini then makes sure that it correctly handles the default signal handlers, such as SIGTERM, so you don’t have to wait ten seconds.
 
-#Troubleshooting
+# Troubleshooting
 When use minio in your local machine and ufw was enable then you will got that connection from inside docker can not access your minio in outside docker.
 This message will show when you run 
 ```shell

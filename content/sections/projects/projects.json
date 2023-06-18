@@ -2,31 +2,47 @@
     "projects": [
         {
             "visible": true,
-            "category": "",
-            "title": "",
-            "description": "",
-            "tags": [""],
+            "category": "Personal Project",
+            "title": "pg_selective",
+            "description": "Just `pg_dump` for table with condition.",
+            "tags": ["rust", "database"],
             "image": {
-                "src": "",
-                "alt": "",
-                "linkTo": "",
+                "src": "../../images/pg_selective.jpeg",
+                "alt": "pg_selective",
+                "linkTo": "https://github.com/cicingik/pg_selective",
                 "objectFit": ""
             },
             "links": [
                 {
                     "type": "github",
-                    "url": ""
-                },
+                    "url": "https://github.com/cicingik/pg_selective"
+                }
+            ]
+        },
+        {
+            "visible": true,
+            "category": "Personal Setup",
+            "title": "dotfiles",
+            "description": "This repo is personal configuration for my device. Mostly setup for terminal as IDE",
+            "tags": ["device", "setting", "dotfile", "nvim"],
+            "image": {
+                "src": "../../images/clement-h-95YRwf6CNw8-unsplash.jpg",
+                "alt": "dotfiles",
+                "linkTo": "https://github.com/cicingik/dotfiles",
+                "objectFit": ""
+            },
+            "links": [
                 {
-                    "type": "external",
-                    "url": ""
+                    "type": "github",
+                    "url": "https://github.com/cicingik/dotfiles"
                 }
             ]
         }
+
     ],
     "button": {
         "visible": true,
-        "label": "",
-        "url": ""
+        "label": "Visit on Github",
+        "url": "https://github.com/cicingik"
     }
 }

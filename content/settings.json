@@ -20,6 +20,7 @@
     "navigation": {
       "header": [
         { "label": "About", "url": "/#about" },
+        { "label": "Project", "url": "/#project" },
         { "label": "Blog", "url": "/blog" },
         { "label": "Contact", "url": "/#contact" }
       ],
