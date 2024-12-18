@@ -3,19 +3,19 @@
         {
             "visible": true,
             "category": "Personal Project",
-            "title": "pg_selective",
-            "description": "Just `pg_dump` for table with condition.",
-            "tags": ["rust", "database"],
+            "title": "Kubectl Peek",
+            "description": "Kubectl plugin for peeking secret and configmap.",
+            "tags": ["rust", "kubectl-plugin", "kubernetes"],
             "image": {
-                "src": "../../images/pg_selective.jpeg",
-                "alt": "pg_selective",
-                "linkTo": "https://github.com/cicingik/pg_selective",
+                "src": "../../images/peek.jpg",
+                "alt": "kubeclt-peek",
+                "linkTo": "https://github.com/cicingik/peek",
                 "objectFit": ""
             },
             "links": [
                 {
                     "type": "github",
-                    "url": "https://github.com/cicingik/pg_selective"
+                    "url": "https://github.com/cicingik/peek"
                 }
             ]
         },
@@ -38,7 +38,6 @@
                 }
             ]
         }
-
     ],
     "button": {
         "visible": true,
