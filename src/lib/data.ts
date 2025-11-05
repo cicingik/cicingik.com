@@ -146,4 +146,4 @@ export const awards = [
 ];
 
 
-export const interest = ["🚴‍♀️ Cycling", "🧗‍♀️ Wall Climbing", "📷 Photography"]
+export const interest = ["🚴‍♀️ Cycling", "🧗‍♀️ Wall Climbing", "📷 Photography", "🎧 Listening Music"]
