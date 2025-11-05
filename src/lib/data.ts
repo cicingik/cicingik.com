@@ -1,7 +1,7 @@
 export const personalInfo = {
   name: "cicingik",
   location: "Yogyakarta, Indonesia",
-  email: "dany@cicingik.com",
+  email: "danysatyanegara@cicingik.com",
   github: "https://github.com/cicingik",
   linkedin: "https://linkedin.com/in/danysatyanegara",
   resume: "/resume.pdf",
